@@ -17,7 +17,7 @@ A complex number calculator and word count script
 
 navigage to the root project/assignment3
 
-`$ pytest`
+`$ pytest` || `$ make test`
 
 ## Run the `wc` script
 
