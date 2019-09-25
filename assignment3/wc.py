@@ -1,12 +1,12 @@
 import sys
 
 def countNumberOfWordsInFile(file):
-    f = open("./test.txt", "r")
+    f = open(file, "r")
     numberOfWords = f.read().split()
     print(len(numberOfWords))
 
 def countNumberOfLinesInFile(file):
-    f = open("./test.txt", "r")
+    f = open(file, "r")
     nummberOflines = sum(1 for line in f)
     print(nummberOflines)
 
